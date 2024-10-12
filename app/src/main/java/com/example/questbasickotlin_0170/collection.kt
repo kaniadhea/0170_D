@@ -53,4 +53,11 @@ fun ContohSet() {
     val shape: MutableSet<String> = mutableSetOf("Circlr", "Square", "Triangle")
     println(shape)
 
+    // Menambahkan data ke dalam Set Mutable
+    shape.add("Rectangle")
+    println(shape)
+
+    // Menghapus data dari Set Mutable
+    shape.remove("Circle")
+    println(shape)
 }
